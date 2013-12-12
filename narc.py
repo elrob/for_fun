@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+"""
+A program to brute force narcissistic numbers:
+  Numbers where the sum of each digit raised to 
+  the total number of digits is equal to the number.
+  e.g. 153 = 1^3 + 5^3 + 3^3
+"""
+
 import sys
 
 def sum_digits(i,power):
